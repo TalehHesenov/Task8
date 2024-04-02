@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Wizard</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+   <header id="header">
+    <h1>Gentella Form Elements</h1>
+   </header>
+    <section id="section1">
+        <div class="section1_left">
+            <div class="left_form1">
+                <form action="">
+                    <div class="form_header"> 
+                        <h4>Form Design different form elements</h4>
+                        <div class="form1_icon">
+                     <i class="fa-solid fa-chevron-up"></i>
+                     <i class="fa-solid fa-wrench"></i>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                    
+                </div>
+
+                <hr>
+                <hr>
+                <input type="text" placeholder="Frist Name">
+                <input type="text" placeholder="Last Name">
+                
+                   <div class="form_icon">
+                    <div class="form_icon_left">
+                        <i class="fa-solid fa-user"></i>
+                        <div class="salt_line"></div>
+                    </div>
+                    <div class="form_icon_right">
+                        <div class="salt_line"></div>
+                        <i class="fa-solid fa-user"></i>
+                        
+                    </div>
+                     </div>
+
+
+                   <hr>
+                   <input type="email" placeholder="Email">
+                   <input type="text" placeholder="Phone">
+
+                    <div class="form_icon icon_phone">
+                        <div class="form_icon_left">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div class="salt_line"></div>
+                        </div>
+                        <div class="form_icon_right">
+                            <div class="salt_line"></div>
+                            <i class="fa-solid fa-phone"></i>
+                            
+                        </div>
+                         </div>
+                   
+                   
+                   <label for="">Default Input</label>
+                   <input type="text" placeholder="Default Input" class="default_input"><br>
+                   <label for="">Disabled Input</label>
+                   <input type="text" placeholder="Disabled Input" class="default_input default_input_color"><br>
+                   <label for="">Readonly Input</label>
+                   <input type="text" placeholder="Readonly Input" class="default_input default_input_color"><br>
+                   <label for="">Date of Birth <sup>*</sup></label>
+                   <input type="text" placeholder="Readonly Input" class="default_input default_input_text"><br>
+
+                   <button type="button" class="button">Cancel</button>
+                   <button type="submit" class="submit">Submit</button>
+
+                </form>
+                
+            </div>
+
+            <div class="left_form2">
+                <div class="form_header"> 
+                    <h4>Start Rating</h4>
+                    <div class="form1_icon">
+                 <i class="fa-solid fa-chevron-up"></i>
+                 <i class="fa-solid fa-wrench"></i>
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            </div>
+            <hr>
+
+            <div class="left_form2_page">
+                <a href="#"><h6>Start Ratings Hover and click on a star</h6></a>
+
+                <a href="#"><p>You gave a rating of 0 star(s)</p></a>
+                <a href="#"><p>Also you can give a default rating by adding attribute data-rating</p></a>
+                <a href="#"><span>You gave a rating 4 start(s)</span></a>
+            </div>
+        </div>
+
+        <div class="left_form3">
+            <div class="form_header"> 
+                <h4>Registration Form Click to validate</h4>
+                <div class="form1_icon">
+             <i class="fa-solid fa-chevron-up"></i>
+             <i class="fa-solid fa-wrench"></i>
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        </div>
+        <hr>
+
+        <div class="left_form3_page">
+            <form action="">
+                <label for="">Full Name<sup>*</sup>:</label>
+                <input type="text" placeholder="Full Name">
+                <label for="">Email<sup>*</sup>:</label>
+                <input type="email" placeholder="Email">
+
+                
+                <p>Gender:</p>
+                <label for="male"  class="gender">M:</label>
+            <input type="radio" id="male" name="gender" class="gender" checked>
+            <label for="female"  class="gender">F:</label>
+            <input type="radio" id="female" name="gender" class="gender">
+            
+            <p>Hobbies(2 minimum):</p>
+           
+            <input type="checkbox" name="hobbies" id="sking" class="hobbies" checked> 
+            <label for="sking" class="hobbies">Sking</label> <br>
+            <input type="checkbox" name="hobbies" id="running" class="hobbies">
+            <label for="running" class="hobbies">Running</label><br>
+            <input type="checkbox" name="hobbies" id="eating" class="hobbies" checked>
+            <label for="eating" class="hobbies">Eating</label><br>
+            <input type="checkbox" name="hobbies" id="sleeping" class="hobbies" checked>
+            <label for="sleeping" class="hobbies">Sleeping</label>
+            
+
+            <p>Heard us by<sup>*</sup>:</p>
+
+            <select name="select" id="1" title="section">
+                <option value="1">Choose...</option>
+                <option value="2">Sleeping</option>
+                <option value="3">Eating.</option>
+            </select>
+
+            <label for="message">Message (20 chars min, 100 max):</label>
+            <textarea  id="message" cols="76" rows="5"></textarea>
+                <button type="submit" class="left_form3_message_button">Validate form</button>
+            </form>
+        </div>
+        
+        </div>
+
+        <div class="left_form4">
+            <div class="form_header"> 
+                <h4>Form Buttons <span>Sessions</span></h4>
+                <div class="form1_icon">
+             <i class="fa-solid fa-chevron-up"></i>
+             <i class="fa-solid fa-wrench"></i>
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        </div>
+        <hr>
+
+        <form action="">
+            <label for="">Button addons</label>
+            <button type="button" class="section1_button1">GO!</button>
+            <input type="text" placeholder="button"><br>
+           <input type="text" placeholder="button" class="left_form4_input2">
+            <button type="button" class="left_form4_button">GO!</button><br>
+            <label for="" class="section1_label1">Button addons</label>
+            <input type="text" placeholder="button"  class="left_form4_input3">
+            <select name="button" id="1" title="select">
+                <option value="1">Action</option>
+            </select>
+            <input type="text" placeholder="button" class="left_form4_input2">
+            <button type="button" class="left_form4_button">GO!</button><br>
+        </form>
+        </div>
+        </div>    
+        <div class="section1_right">
+            <div class="form_header"> 
+                <h4>Start Rating</h4>
+                <div class="form1_icon">
+             <i class="fa-solid fa-chevron-up"></i>
+             <i class="fa-solid fa-wrench"></i>
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        </div>
+        <hr>
+        <form action=""> <label for="">Default Input</label>
+        <input type="text" placeholder="Default Input"><br>
+        <label for="">Disabled Input</label>
+        <input type="text" placeholder="Disabled Input"><br>
+        <label for="">Read-Only Input</label>
+        <input type="text" placeholder="Read-Only Input"><br>
+        <label for="">Date Of Br]irh<sup>*</sup></label>
+        <textarea name="" id="" cols="50" rows="4" placeholder="rows=*3*"></textarea><br>
+        <label for="">Password</label>
+        <input type="password" placeholder="***********"><br>
+        <label for="">AutoComplate</label>
+        <input type="text" placeholder="AutoComplate"><br>
+
+        <label for="">Select</label>
+        <select name="" id="" title="section">
+            <option value="">Choore Option</option>
+        </select><br>
+        <label for="">Select Custom</label>
+        <select name="" id="" title="section" class="section_right_select_option">
+            <option value=""></option>
+        </select><br>
+        <label for="">Select Grouped</label>
+        <select name="" id="" title="section" class="section_right_select_alaska">
+            <option value="">Alaska</option>
+        </select><br>
+        <label for="">Select Multiple</label>
+        <div class="right_select_scrole">
+            <p>Choose Option</p>
+            <p>Option One</p>
+            <p>Option Two</p>
+           <p>Option There</p>
+            <p>Option Demo</p>
+            </div>
+       
+        <label for="">Input Tags</label>
+        <input type="text" placeholder="social, adverts, sales"><br>
+
+
+            <p class="check_p">Checkboxs and radios</p>
+            <input type="checkbox" checked="checked" id="check" class="check_input">
+            <label for="check" class="check_label">Option one. select more than one options</label><br>
+            <p class="check_p">Checkboxs and radios</p>
+            <input type="checkbox" checked="checked" id="check2" class="check_input">
+            <label for="check2" class="check_label">Option one. select more than one options</label><br>
+
+            <input type="radio" checked="checked" name="radio" id="radio" class="checkbox_radio">
+            <label for="radio" class="check_label">Option one. only select one option</label><br>
+            <input type="radio" name="radio" id="radioo" class="checkbox_radio">
+            <label for="radioo" class="check_label">Option one. only select one option</label><br>
+            
+            <div class="check_radio">
+                <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox">Checked</label> <a href="#">switch</a><br>
+                <input type="checkbox" name="checkbox" id="checkbox2">
+            <label for="checkbox2">Unchecked</label><br>
+                <input type="checkbox" checked="checked" name="checkbox" id="checkbox3">
+            <label for="checkbox3">Disabled</label><br>
+                <input type="checkbox"name="checkbox" id="checkbox4">
+            <label for="checkbox4" class="check_label">Disabled & Checked</label><br>
+                <input type="radio"name="checkbox" id="radio1">
+            <label for="radio1" class="check_label">Checked</label><br>
+                <input type="radio" name="checkbox" id="radio2">
+            <label for="radio2" class="check_label">Unchecked</label><br>
+                <input type="radio" name="checkbox" id="radio3">
+            <label for="radio3" class="check_label">Disabled</label><br>
+                <input type="radio"name="checkbox" id="radio4">
+            <label for="radio4" class="check_label">Disabled & Checked</label><br>
+            <input type="checkbox" name="checkbox" id="checkbox5">
+            <label for="checkbox5" class="check_label">Checked</label><br>
+                <input type="checkbox" name="checkbox" id="checkbox6">
+            <label for="checkbox6" class="check_label">Unchecked</label><br>
+                <input type="checkbox" name="checkbox" id="checkbox7">
+            <label for="checkbox7" class="check_label">Disabled</label><br>
+                <input type="checkbox" name="checkbox" id="checkbox8">
+            <label for="checkbox8" class="check_label">Disabled & Checked</label><br>
+            </div>
+            <button type="button" class="button">Cancel</button>
+            <button type="submit" class="submit">Submit</button>
+        </form>
+        
+       
+    </div>
+    </section>
+
+    <section id="section2">
+    <div class="section2_div1">
+        <form action="">
+            <div class="form_header"> 
+                <h4>Text Areas Sensions</h4>
+                <div class="form1_icon">
+             <i class="fa-solid fa-chevron-up"></i>
+             <i class="fa-solid fa-wrench"></i>
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+            
+        </div>
+
+        <hr>
+
+        <div class="buttons">
+            <select name="" id="" title="text">
+                <option value="1">A</option>
+            </select>
+            <select name="" id="" title="text">
+                <option value="1">T</option>
+            </select>
+            <button type="button">B</button>
+            <button type="button">I</button>
+            <button type="button" class="button_hr">S</button>
+            <button type="button" class="button_under">U</button>
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-list-check"></i>
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-chart-bar"></i>
+            <i class="fa-solid fa-bars-staggered"></i>
+            <i class="fa-solid fa-bars-staggered"></i>
+            <i class="fa-solid fa-barcode"></i>
+            <i class="fa-solid fa-infinity"></i>
+            <i class="fa-solid fa-scissors"></i>
+            <i class="fa-solid fa-image"></i>
+            <input type="file" id="myfile" name="myfile" placeholder="Choose File">
+            <i class="fa-solid fa-arrow-rotate-right"></i>
+            <i class="fa-solid fa-arrow-rotate-left"></i>
+
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+
+        <hr class="section2_hr">
+
+        <div class="section2_footer">
+            <span>Resizable Text area</span>
+
+        <textarea name="" id="" cols="30" rows="10"
+         placeholder="Thus text area automatically resizes its height as you fill in more text courtesy of autosize-master it out..." class="textarea_footer"></textarea>
+        </div>
+
+        
+
+    </div>
+    </section>
+
+    <section id="section3">
+            <div class="form_header"> 
+                <h4>Form Input Grid form input</h4>
+                <div class="form1_icon">
+             <i class="fa-solid fa-chevron-up"></i>
+             <i class="fa-solid fa-wrench"></i>
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+            
+        </div>
+
+        <hr>
+
+        <div class="grid">
+            <div class="col-md-12_div">
+                <div class="col-md-12">col-md-12</div>
+            </div>
+            <div class="col-md-6_div">
+                <div class="col-md-6">col-md-6</div>
+            <div class="col-md-6">col-md-6</div>
+        </div>
+        <div class="col-md-4_div"> 
+            <div class="col-md-4">col-md-4</div>
+            <div class="col-md-4">col-md-4</div>
+            <div class="col-md-4">col-md-4</div>
+        </div>
+        <div class="col-md-3_div">
+            <div class="col-md-3">col-md-3</div>
+            <div class="col-md-3">col-md-3</div>
+            <div class="col-md-3">col-md-3</div>
+            <div class="col-md-3">col-md-3</div>
+        </div>
+            
+        <div class="col-md-2_div"> 
+            <div class="col-md-2">col-md-2</div>
+            <div class="col-md-2">col-md-2</div>
+            <div class="col-md-2">col-md-2</div>
+            <div class="col-md-2">col-md-2</div>
+            <div class="col-md-2">col-md-2</div>
+            <div class="col-md-2">col-md-2</div>
+        </div>
+           
+        <div class="col-md-_div">
+            <div class="col-md-">col-md-</div>
+            <div class="col-md-">col-md-</div>
+            <div class="col-md-">col-md-</div>
+            <div class="col-md-">col-md-</div>
+            <div class="col-md-">col-md-</div>
+            <div class="col-md-">col-md-</div>
+            <div class="col-md-">col-md-</div>
+            <div class="col-md-">col-md-</div>
+            <div class="col-md-">col-md-</div>
+            <div class="col-md-">col-md-</div>
+            <div class="col-md-">col-md-</div>
+        </div>
+            
+        </div>
+    </section>
+
+    <section id="section4">
+        <div class="form_header"> 
+            <h4>Form Design different form elements</h4>
+            <div class="form1_icon">
+         <i class="fa-solid fa-chevron-up"></i>
+         <i class="fa-solid fa-wrench"></i>
+        <i class="fa-solid fa-xmark"></i>
+    </div>
+        
+    </div>
+
+    <hr>
+
+  
+
+    <form action="">
+
+          <h2>Horizontal Labels</h2>
+
+    <p>Using the grid you can control the position of the lables.The form exampe below has the col-md-10 which sets the width to 10/20 and center-margin which centers it.</p>
+        
+            <label for="">Frist Name<sup>*</sup>:</label>
+        <input type="text" title="name" class="horizontal_input"><br>
+        <label for="">Last Name<sup>*</sup>:</label>
+        <input type="text" title="name"  class="horizontal_input">
+       
+        <h4>Vertical Labels</h4>
+
+
+        <div class="form_vertical">
+
+        <label for="" class="form_vertical_label">Email Addres</label>
+        <input type="email" title="name" placeholder="Email Addres">
+        <label for="" class="form_vertical_label">Password</label>
+        <input type="password" title="name" placeholder="Password">
+        </div>
+
+        <div class="form_inline">
+            <h4>Vertical Labels</h4>
+            <p>Add .form-inline to your form (which doesn't have to be a <br>
+            ) for left-aligned and inline-blok controls.</p>
+            <label for="" class="form_inline_label">Email Addres</label>
+            <input type="email" title="name" >
+            <label for="" class="form_inline_label">Email Addres</label>
+            <input type="email" title="name">
+            </div>
+
+            <button title="submit">Send Invation</button>
+       
+
+    </form>
+   
+    </section>
+</body>
+</html>
